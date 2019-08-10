@@ -1,0 +1,37 @@
+{
+  "name": "medium.com-webauth",
+  "version": "1.0.0",
+  "description": "starter project structure for Medium post - Adding TouchID to your Web Application.",
+  "main": "app.js",
+  "scripts": {
+    "test": "node ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philliplakis/medium.com-webauth.git"
+  },
+  "keywords": [
+    "webauthn",
+    "fido2"
+  ],
+  "author": "Phillip Lakis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/philliplakis/medium.com-webauth/issues"
+  },
+  "homepage": "https://github.com/philliplakis/medium.com-webauth#readme",
+  "dependencies": {
+    "@fidm/x509": "github:fidm/x509",
+    "base64url": "^3.0.1",
+    "bcrypt": "^3.0.6",
+    "cbor": "^4.1.5",
+    "config": "^3.2.2",
+    "cookie-parser": "^1.4.4",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "iso-3166-1": "^1.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.8"
+  }
+}
