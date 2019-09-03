@@ -4,7 +4,8 @@
   "description": "starter project structure for Medium post - Adding TouchID to your Web Application.",
   "main": "app.js",
   "scripts": {
-    "test": "node ./app.js"
+    "test": "node ./app.js",
+    "build": "next build"
   },
   "repository": {
     "type": "git",
